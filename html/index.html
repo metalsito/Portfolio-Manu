@@ -12,15 +12,19 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link active" href="#">About</a>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" aria-labelledby="offcanvasDarkNavbarLabel" id="offcanvasDarkNavbar">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-tittle" id="offcanvasDarkNavbarLabel">Navbar</h5>
+                <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
             <a class="nav-link active" href="#">Skills</a>
             <a class="nav-link active" href="#">Projects</a>
+            <a class="nav-link active" href="#">Contact</a>
             </div>
         </div>
         </div>
