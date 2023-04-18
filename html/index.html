@@ -20,19 +20,33 @@
     <!--/ navbar-brand: Es el titulo o logo para tu proyecto-->
         <a class="navbar-brand" href="#">Navbar</a>
     <!--/ navbar-toggler: indica que se usara estos elementos en otros que collapsan
-    ///// -->
+    ///// offcanvas: es una UI que esta fuera de foco y aparece al apretar el boton-->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+    <!--/ navbar-toggler-icon: icono de boton de navbar-->
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" aria-labelledby="offcanvasDarkNavbarLabel" id="offcanvasDarkNavbar">
+    <!--/ offcanvas-start: indica en que direccion sale el menu desplegable de la navbar
+    ///// text-bg-dark: el background del texto en negro
+    ///// tabindex -1: indica que el elemento no es focuseable por el tab del teclado pero si por JS-->
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" aria-labelledby="offcanvasDarkNavbarLabel" id="offcanvasDarkNavbar">
+    <!--/ offcanvas-header: seccion del titulo o encabezado del offcanvas-->
             <div class="offcanvas-header">
+    <!--/ offcanvas-tittle: clase para el texto que va en el offcanvas-header-->
                 <h5 class="offcanvas-tittle" id="offcanvasDarkNavbarLabel">Navbar</h5>
                 <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+    <!--/ offcanvas-body: cuerpo del offcanvas donde iran la mayoria de elementos o items-->
             <div class="offcanvas-body">
+    <!--/ navbar-nav: clase para indicar que es una navigation bar
+    ///// justify-content-start: metodos para acomodar el contenido a la izquierda
+    ///// flex-grow-1: indica si un elemento abarcara el espacio libre circundante
+    ///// pe-3: es una clase para agregar o prevenir interacciones a un elemento-->
                 <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+    <!--/ nav-item: le da la clase item de navegacion a un elemento-->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+    <!--/ nav-link: le da la clase de link a un elemento
+    ///// active: le dice si esta habilitado ese elemento como link-->
+                        <a class="nav-link active" href="#">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Skills</a>
