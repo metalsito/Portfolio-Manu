@@ -7,6 +7,10 @@
   align-items: center;
   background-image: url(../Assets/IMG/Banner/img-lenguaje-programacion.jpg);
   height: 250px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border: 0.5px solid black;
 }
 .banner .container-banner {
   display: flex;
@@ -15,8 +19,18 @@
   color: white;
 }
 .banner .container-banner #banner-text {
-  border: 2px solid black;
-  padding: 20px;
+  border: 0.5px solid black;
+  padding: 5px;
+  background-color: rgba(197, 197, 197, 0.3);
+  backdrop-filter: blur(10px);
+}
+.banner .container-banner #banner-text #banner-sub-text {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 0.5px solid black;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
