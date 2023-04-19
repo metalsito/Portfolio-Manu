@@ -49,3 +49,42 @@
         }
     }
 }
+
+.about {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-top: none;
+    flex-direction: column;
+    .container-about {
+        display: flex;
+        align-items: center;
+        .container-text-about {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #4362eeaf;
+            border-radius: 50%;
+            width: 30rem;
+            height: 20rem;
+            margin: 0 auto;
+            padding: 3%;
+            overflow: auto;
+            .header-text-about {
+                font-style: italic;
+            }
+            .body-text-about {
+                font-size: medium;
+                font-style: italic;
+            }
+        }
+        .container-img-about {
+                .img-about {
+                    width: 100%;
+                    object-fit: cover;
+                }
+        }
+    }
+}
