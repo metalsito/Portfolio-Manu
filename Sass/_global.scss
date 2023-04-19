@@ -2,30 +2,48 @@
 @use "fonts";
 
 .banner {
+    // display: indica como se tratara el elemento
     display: flex;
+    // align-items: alinea y agrupa a todos los objetos e hijos de estos en un mismo sentido
     align-items: center;
+    // background-image: le añade una imagen al fondo de un elemento
     background-image: url(../Assets/IMG/Banner/img-lenguaje-programacion.jpg);
-    height: 250px;
+    // height: altura de una elemento
+    height: 350px;
+    // background-repeat: le indica si la imagen se repite o no
     background-repeat: no-repeat;
-    background-position: 50%;
+    // background-position: permite posicionar el background en un punto del contenedor
+    background-position: center center;
+    // background-size: con esto indicamos como la imagen debe tomar su tamaño segun el contenedor
     background-size: cover;
+    // border: con esto le das forma al borde o contorno del contenedor
     border: 0.5px solid black;
     .container-banner {
         display: flex;
         align-items: center;
+    // flex-direction: indica en que direccion de eje siguen los elementos de un contenedor
         flex-direction: column;
+    // color: indica el color que tomaran los elementos dentro del contenedor
         color: white;
         #banner-text {
             border: 0.5px solid black;
+    // padding: indica el tamaño del espacio que habra entre el borde y el elemento
             padding: 5px;
+    // background-color: indica el color del fondo
             background-color: rgba(197, 197, 197, 0.30);
+    // backdrop-filter: le da un estilo de desonfoque a lo que esta atras
             backdrop-filter: blur(10px);
+    // text-align: el alineado que sigue el texto
+            text-align: center;
             #banner-sub-text {
+                text-align: center;
+    // font-size: el tamaño de la fuente
                 font-size: large;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 border-top: 0.5px solid black;
+    // padding-top: indica el tamaño del espacio entre el elemento y el bordo del contenedor pero solo de la parte superior
                 padding-top: 10px;
             }
         }
