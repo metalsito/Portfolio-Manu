@@ -1,3 +1,19 @@
 @use "components";
 @use "fonts";
 
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url(../Assets/IMG/Banner/img-lenguaje-programacion.jpg);
+    height: 250px;
+    .container-banner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        #banner-text {
+            border: 2px solid black;
+            padding: 20px;
+        }
+    }
+}
