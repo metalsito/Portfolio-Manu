@@ -50,37 +50,4 @@
     }
 }
 
-.about {
-    display: flex;
-    align-items: center;
-    border: 0.5px solid black;
-    border-top: none;
-    flex-direction: row;
-    .container-about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        .container-img-about {
-            display: flex;
-            align-items: center;
-        }
-        .container-text-about {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            width: 20rem;
-            height: 20rem;
-            .header-text-about {
-                font-style: italic;
-                font-size: x-large;
-            }
-            .body-text-about {
-                font-size: medium;
-                font-style: italic;
-            }
-        }
-    }
-}
+
