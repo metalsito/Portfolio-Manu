@@ -50,4 +50,37 @@
     }
 }
 
-
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text-about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .container-text-header-body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 1rem;
+                .header-about {
+                    width: 20rem;
+                    .body-about {
+                        font-size: medium;
+                        margin-top: 0.5rem;
+                    }
+                }
+            }
+        }
+        .img-about {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

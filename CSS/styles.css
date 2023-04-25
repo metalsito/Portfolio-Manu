@@ -35,4 +35,39 @@
   padding-top: 10px;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-container .text-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about .about-container .text-about .container-text-header-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.about .about-container .text-about .container-text-header-body .header-about {
+  width: 20rem;
+}
+.about .about-container .text-about .container-text-header-body .header-about .body-about {
+  font-size: medium;
+  margin-top: 0.5rem;
+}
+.about .about-container .img-about {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */
