@@ -38,7 +38,9 @@
 .about {
   display: flex;
   align-items: center;
-  justify-content: center;
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
 }
 .about .about-container {
   display: flex;
@@ -49,7 +51,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+.about .about-container .text-about .img-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about .about-container .text-about .container-text-header-body {
   display: flex;
@@ -63,11 +70,6 @@
 .about .about-container .text-about .container-text-header-body .header-about .body-about {
   font-size: medium;
   margin-top: 0.5rem;
-}
-.about .about-container .img-about {
-  position: fixed;
-  bottom: 0;
-  right: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
