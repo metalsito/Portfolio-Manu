@@ -128,3 +128,12 @@
         }
     }
 }
+
+.projects {
+    display: flex;
+    align-items: center;
+    max-width: 992px;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
