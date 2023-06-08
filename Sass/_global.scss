@@ -121,10 +121,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            //position: relative;
-            .img-lg {
-                //position: absolute;
-            }
         }
     }
 }
@@ -136,4 +132,30 @@
     width: 100%;
     margin: auto;
     flex-direction: column;
+    justify-content: center;
+    .header-text-projects {
+        margin-top: 3rem;
+        border: 0.5px solid rgb(38,77,228);
+        padding: 0.5rem;
+        text-align: center;
+        background-color: rgb(38,77,228);
+        color: white;
+        border-radius: 5px;
+    }
+    .container-cards {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        grid-gap: 3rem;
+        grid-auto-rows: 22rem;
+        margin: auto;
+        align-self: center;
+        padding: 1rem;
+        .container-content-cards {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
