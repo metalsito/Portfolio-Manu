@@ -54,6 +54,7 @@
     display: flex;
     align-items: center;
     max-width: 992px;
+    height: 680px;
     width: 100%;
     margin: auto;
     margin-top: 3rem;
@@ -101,10 +102,18 @@
         margin: auto;
         .text-header-skills {
             margin-top: 3rem;
+            border: 0.5px solid rgb(38,77,228);
+            padding: 0.5rem;
+            text-align: center;
+            background-color: rgb(38,77,228);
+            color: white;
+            border-radius: 5px;
+            //backdrop-filter: blur(10px);
         }
     }
     .skills-container {
         display: grid;
+        // con este codigo creo una columna responsive para cualquier pagina
         grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
         grid-gap: 1rem;
         grid-auto-rows: 22rem;
