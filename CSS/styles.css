@@ -41,6 +41,7 @@
   max-width: 992px;
   width: 100%;
   margin: auto;
+  margin-top: 3rem;
 }
 .about .about-container {
   display: flex;
@@ -78,6 +79,15 @@
   max-width: 992px;
   width: 100%;
   margin: auto;
+  flex-direction: column;
+}
+.skills .text-skills {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.skills .text-skills .text-header-skills {
+  margin-top: 3rem;
 }
 .skills .skills-container {
   display: grid;
