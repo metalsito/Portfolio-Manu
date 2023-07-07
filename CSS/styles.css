@@ -89,12 +89,13 @@
 }
 .skills .text-skills .text-header-skills {
   margin-top: 3rem;
-  border: 0.5px solid rgb(38, 77, 228);
+  border: 0.5px solid rgb(33, 37, 41);
   padding: 0.5rem;
   text-align: center;
-  background-color: rgb(38, 77, 228);
+  background-color: rgb(33, 37, 41);
   color: white;
   border-radius: 5px;
+  margin-bottom: 5rem;
 }
 .skills .skills-container {
   display: grid;
@@ -119,12 +120,13 @@
 }
 .projects .header-text-projects {
   margin-top: 3rem;
-  border: 0.5px solid rgb(38, 77, 228);
+  border: 0.5px solid rgb(33, 37, 41);
   padding: 0.5rem;
   text-align: center;
-  background-color: rgb(38, 77, 228);
+  background-color: rgb(33, 37, 41);
   color: white;
   border-radius: 5px;
+  margin-bottom: 5rem;
 }
 .projects .container-cards {
   display: grid;
@@ -141,6 +143,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.contact .header-text-contact {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  border: 0.5px solid rgb(33, 37, 41);
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border-radius: 5px;
+}
+.contact .container-form {
+  width: 420px;
+}
+.contact .container-form .btn-div .btn {
+  float: right;
 }
 
 /*# sourceMappingURL=styles.css.map */

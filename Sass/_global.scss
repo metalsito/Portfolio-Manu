@@ -102,12 +102,13 @@
         margin: auto;
         .text-header-skills {
             margin-top: 3rem;
-            border: 0.5px solid rgb(38,77,228);
+            border: 0.5px solid rgb(33,37,41);
             padding: 0.5rem;
             text-align: center;
-            background-color: rgb(38,77,228);
+            background-color: rgb(33,37,41);
             color: white;
             border-radius: 5px;
+            margin-bottom: 5rem;
             //backdrop-filter: blur(10px);
         }
     }
@@ -135,12 +136,13 @@
     justify-content: center;
     .header-text-projects {
         margin-top: 3rem;
-        border: 0.5px solid rgb(38,77,228);
+        border: 0.5px solid rgb(33,37,41);
         padding: 0.5rem;
         text-align: center;
-        background-color: rgb(38,77,228);
+        background-color: rgb(33,37,41);
         color: white;
         border-radius: 5px;
+        margin-bottom: 5rem;
     }
     .container-cards {
         display: grid;
@@ -168,4 +170,25 @@
     margin: auto;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    .header-text-contact {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        border: 0.5px solid rgb(33,37,41);
+        padding: 0.5rem;
+        text-align: center;
+        background-color: rgb(33,37,41);
+        color: white;
+        border-radius: 5px;
+    }
+    .container-form {
+        width: 420px;
+        .btn-div {
+            .btn {
+                float: right;
+            }
+        }
+    }
 }
