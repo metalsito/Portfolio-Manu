@@ -227,12 +227,18 @@
                 <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
             </div>
             <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="subject" name="subject">
+            </div>
+            <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea class="text form-control" id="message" rows="3" name="message"></textarea>
             </div>
             <div class="mb-3 btn-div">
                 <button class="btn btn-primary" type="submit">Send</button>
             </div>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/index.html">
+            <input type="hidden" name="_captcha" value="false">
         </div>
     </form>
     </section>
