@@ -218,21 +218,21 @@
     </div>
     <form action="https://formsubmit.co/manuelsebastiandls@gmail.com" method="POST" method="posts">
         <div class="container-fluid container-form">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
+            <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                <label for="name" class="form-label">Name</label>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
+            <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                <label for="email" class="form-label">Email address</label>
             </div>
-            <div class="mb-3">
-                <label for="subject" class="form-label">Subject</label>
+            <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="subject" placeholder="subject" name="subject">
+                <label for="subject" class="form-label">Subject</label>
             </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="text form-control" id="message" rows="3" name="message"></textarea>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a message" id="floatingTextarea" name="message" style="height: 100px;"></textarea>
+                <label for="floatingTextarea">Message</label>
             </div>
             <div class="mb-3 btn-div">
                 <button class="btn btn-primary" type="submit">Send</button>
