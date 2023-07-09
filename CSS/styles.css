@@ -157,9 +157,25 @@
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
+.contact .contact-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.contact .contact-data .whatzapp-icon {
+  margin-right: 0.25rem;
+}
+.contact .contact-data .email-icon {
+  margin-right: 0.25rem;
+}
 .contact .header-text-contact {
   margin-top: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   border: 0.5px solid rgb(33, 37, 41);
   padding: 0.5rem;
   text-align: center;
