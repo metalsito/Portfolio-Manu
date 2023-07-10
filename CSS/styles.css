@@ -197,4 +197,15 @@
   float: right;
 }
 
+.navbar-bottom {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-bottom .whatzapp-icon {
+  margin-right: 0.25rem;
+}
+.navbar-bottom .email-icon {
+  margin-right: 0.25rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

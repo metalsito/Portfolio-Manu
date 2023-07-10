@@ -215,3 +215,14 @@
         }
     }
 }
+
+.navbar-bottom {
+    display: flex;
+    flex-direction: row;
+    .whatzapp-icon {
+        margin-right: 0.25rem;  
+    }
+    .email-icon {
+        margin-right: 0.25rem;
+    }
+}
